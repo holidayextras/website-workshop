@@ -1,0 +1,33 @@
+body {
+	background-color: brown;
+}
+
+div.profile {
+	width: 30%;
+	margin: 50px auto;
+	border-width: 10px;
+	border-style: double;
+	border-color: green;
+	padding: 20px;
+	background-color: beige;
+	border-radius: 30px;
+}
+
+h1 {
+	color: blue;
+	text-decoration: underline;
+	text-align: center;
+}
+
+img.vadpicture {
+	width: 60%;
+	display: block;
+	margin: 20px auto;
+	box-shadow: 10px 20px 75px #660099;
+}
+
+p.intro {
+	line-height: 25px;
+	font-family: "Arial Black", Gadget, sans-serif;
+}
+
