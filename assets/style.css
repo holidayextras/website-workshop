@@ -1,0 +1,16 @@
+body {
+	background: #3399FF;	
+	font-family: sans-serif;	
+}
+h2.blink {
+	text-decoration: blink;
+}
+p {
+	padding-right: 5%	
+}
+img {
+	border-radius: 25px;
+	border: 20px solid #8AC007;
+	float: left;
+    margin: 0 50px 10px 10px;
+}
