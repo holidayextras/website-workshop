@@ -1,0 +1,31 @@
+body {
+	font-family: sans-serif;
+	text-align: center;
+	background-color: #81BEF7;
+	-webkit-animation: mymove 5s infinite; /* Chrome, Safari, Opera */
+    animation: mymove 5s infinite;
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes mymove {
+    0% {background-color: #81BEF7;}
+    50% {background-color: #FF9933;}
+	100% {background-color: #81BEF7;}
+}
+
+h1 {
+	text-decoration: underline;
+}
+	
+.beer {
+	text-decoration: underline;
+	color: white;
+}
+
+img {
+    border: 2px solid #a1a1a1;
+    padding: 5px 5px; 
+    background: #dddddd;
+    width: 200px;
+    border-radius: 25px;
+}
