@@ -1,0 +1,21 @@
+body {
+	background:lightgreen; 
+}
+h1 {
+	background:#36454f;
+	width:45%;
+	color:#02A6DA;
+	font-family:georgia,helvetica;
+	font-weight:400;
+	text-align: center;
+	margin: 0 auto;
+	border:2px #36454f solid;
+	border-radius: 5px
+}
+img {
+	border-radius:50%;
+	box-shadow:5px 5px 10px #002900;
+	width: 60%;
+	display:block;
+	margin:0 auto;
+}
