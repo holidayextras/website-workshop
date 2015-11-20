@@ -1,0 +1,71 @@
+body {
+	font-family: "Indie Flower", sans-serif;
+	text-align: center;
+	background-color: #FFFFFF;
+}
+
+h1 {
+	font-size: 3em;
+	margin-bottom: 0;
+}
+	
+h1 a {
+	color: black;
+	text-decoration: none;
+}
+
+.beer {
+	text-decoration: underline;
+	color: white;
+}
+
+#mainNav {
+	width: 50%;
+	margin: 0 auto;
+	margin-bottom: 25px;
+}
+
+#mainNav a {
+	border-radius: 5px;
+	background: black;
+	padding: 5px;
+	color: white;
+	text-decoration: none;
+	width: 100px;
+	display: inline-block;
+}
+
+#mainNav a:hover {
+	color: red;
+}
+
+#mainNav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+#mainNav li {
+	float: left;
+	margin-right: 63px;
+}
+
+#mainNav .last {
+	margin: 0;
+}
+
+main {
+	clear: both;
+}
+
+#social-media-logos {
+	list-style-type: none;
+	margin: 180px auto;
+	padding: 0;
+	width: 250px;
+}
+
+#social-media-logos li {
+	float: left;
+	margin-right: 10px;
+}

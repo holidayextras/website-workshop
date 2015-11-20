@@ -8,7 +8,7 @@
 5 error If you need help, you may report this *entire* log,
 5 error including the npm and node versions, at:
 5 error     <http://github.com/npm/npm/issues>
-6 error System Darwin 14.4.0
+6 error System Darwin 15.0.0
 7 error command "/Users/matthew.saunby/.nvm/v0.10.35/bin/node" "/Users/matthew.saunby/.nvm/v0.10.35/bin/npm" "start"
 8 error cwd /Users/Shared/git/website-workshop
 9 error node -v v0.10.35
