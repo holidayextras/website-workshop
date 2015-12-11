@@ -14,11 +14,6 @@ h1 a {
 	text-decoration: none;
 }
 
-.beer {
-	text-decoration: underline;
-	color: white;
-}
-
 #mainNav {
 	width: 50%;
 	margin: 0 auto;
@@ -68,4 +63,33 @@ main {
 #social-media-logos li {
 	float: left;
 	margin-right: 10px;
+}
+
+div.img {
+    margin: 5px;
+    padding: 5px;
+    border: 1px solid black;
+    height: auto;
+    width: auto;
+    float: left;
+    text-align: center;
+    margin-right: 42px;
+    margin-left: 42px;
+}	
+
+div.img img {
+    display: inline;
+    margin: 5px;
+    border: 1px solid black;
+}
+
+div.img a:hover img {
+    border: 1px solid black;
+}
+
+div.desc {
+  text-align: center;
+  font-weight: normal;
+  width: 175px;
+  margin: 5px;
 }
