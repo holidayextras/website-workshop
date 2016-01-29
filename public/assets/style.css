@@ -65,25 +65,25 @@ main {
 	margin-right: 10px;
 }
 
-div.img {
-    margin: 5px;
-    padding: 5px;
-    border: 1px solid black;
-    height: auto;
-    width: auto;
-    float: left;
-    text-align: center;
-    margin-right: 42px;
-    margin-left: 42px;
-}	
-
-div.img img {
-    display: inline;
-    margin: 5px;
-    border: 1px solid black;
+div.imgcontainer {
+	width: 80%;
+	margin: 0 auto;
 }
 
-div.img a:hover img {
+.img {
+    height: auto;
+    width: 23%;
+    float: left;
+    margin: 1%;
+}
+
+.img img {
+    display: inline;
+    border: 1px solid black;
+    width: 100%;
+}
+
+.img a:hover img {
     border: 1px solid black;
 }
 

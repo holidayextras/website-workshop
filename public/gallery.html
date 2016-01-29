@@ -1,9 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-	<title>Matt Saunby</title>
-	<link rel="stylesheet" type="text/css" href="./assets/style.css">
-	<link href='https://fonts.googleapis.com/css?family=Indie+Flower' rel='stylesheet' type='text/css'>
+	 <title>Matt Saunby</title>
+	 <link rel="stylesheet" type="text/css" href="./assets/style.css">
+	 <link href='https://fonts.googleapis.com/css?family=Indie+Flower' rel='stylesheet' type='text/css'>
+    <!-- Add jQuery library -->
+    <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+    <!-- Add fancyBox -->
+    <link rel="stylesheet" href="./assets/js/fancybox/jquery.fancybox.css?v=2.1.5" type="text/css" media="screen" />
+    <script type="text/javascript" src="./assets/js/fancybox/jquery.fancybox.pack.js?v=2.1.5"></script>
   </head>
   <body>
   	<header>
@@ -20,9 +25,9 @@
   		</div>
   	</header>
   	<main>
-      <div class="img">
+<!--       <div class="img">
         <a target="_blank" href="./assets/MattSaunby.jpg"><img src="./assets/MattSaunby.jpg" alt="MattSaunby"></a>
-          <div class="desc">Muddy after driving offroad go-karts!</div>
+          <div class="desc">Offroad go-karting!</div>
       </div>
       <div class="img">
         <a target="_blank" href="./assets/MattSaunby2.jpg"><img src="./assets/MattSaunby2.jpg" alt="MattSaunby2" width="208"></a>
@@ -30,12 +35,34 @@
       </div>
       <div class="img">
         <a target="_blank" href="./assets/MattSaunby3.jpg"><img src="./assets/MattSaunby3.jpg" alt="MattSaunby3" width="208"></a>
-          <div class="desc">Piloting our Scout Soapbox Racer!</div>
+          <div class="desc">Soapbox Racing!</div>
       </div>
       <div class="img">
-        <a target="_blank" href="klematis4_big.htm"><img src="klematis4_small.jpg" alt="Klematis" width="110" height="90"></a>
-          <div class="desc">Add a description of the image here</div>
-      </div>
+        <a target="_blank" href="./assets/MattSaunby4.jpg"><img src="./assets/MattSaunby4.jpg" alt="MattSaunby4" width="208"></a>
+          <div class="desc">Hiking in Dartmoor.</div>
+      </div> -->
+    <div class="imgcontainer">
+      <a class="fancybox img" rel="gallery1" href="./assets/MattSaunby.jpg" title="Offroad go-karting!">
+        <img src="./assets/MattSaunby.jpg" alt=""/>
+      </a>
+      <a class="fancybox img" rel="gallery1" href="./assets/MattSaunby2.jpg" title="Relaxing on Scout Camp">
+        <img src="./assets/MattSaunby2.jpg" alt=""/>
+      </a>
+      <a class="fancybox img" rel="gallery1" href="./assets/MattSaunby3.jpg" title="Soapbox Racing!">
+        <img src="./assets/MattSaunby3.jpg" alt=""/>
+      </a>
+      <a class="fancybox img" rel="gallery1" href="./assets/MattSaunby4.jpg" title="Hiking in Dartmoor">
+        <img src="./assets/MattSaunby4.jpg" alt=""/>
+      </a>
+    </div>
     </main>
+    <script>
+      $(document).ready(function() {
+        $(".fancybox").fancybox({
+          openEffect  : 'none',
+          closeEffect : 'none'
+        });
+      });
+    </script>
   </body>
 </html>
